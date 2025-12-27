@@ -22,7 +22,7 @@ const ResumeItem = ({
 }) => {
   return (
     <div className="resume-item flex flex-col md:flex-row gap-y-8 md:gap-x-10 relative mb-16 last:mb-0 w-full">
-      <div className="md:w-1/2 flex flex-col md:items-end md:text-right gap-y-1 md:pr-12 relative z-10">
+      <div className="md:w-1/2 flex flex-col md:items-end md:text-right gap-y-1 pl-16 md:pl-0 md:pr-12 relative z-10">
         <h3 className="text-16-body md:text-25-body font-bold text-myWhite resume-role opacity-0 translate-y-4">
           {role}
         </h3>
@@ -41,7 +41,7 @@ const ResumeItem = ({
         </div>
       </div>
 
-      <div className="md:w-1/2 flex flex-col gap-y-4 pt-0 md:pt-0 relative z-10 pl-16 md:pl-12 mt-[-60px] md:mt-0">
+      <div className="md:w-1/2 flex flex-col gap-y-4 pt-0 md:pt-0 relative z-10 pl-16 md:pl-12 mt-0 md:mt-0">
         <div className="flex items-center gap-x-2 opacity-0 translate-y-4 resume-company-block">
           <h4 className="text-16-body md:text-25-body font-bold text-myGray">
             {company ?? university}
