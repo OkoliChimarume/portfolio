@@ -36,7 +36,7 @@ const Hero = () => {
   return (
     <section 
       ref={containerRef} 
-      className="w-full h-[80vh] lg:h-screen flex items-center lg:px-desktop-h relative bg-myDusk text-myWhite overflow-hidden"
+      className="w-full h-screen flex items-center lg:px-desktop-h relative bg-myDusk text-myWhite overflow-hidden"
     >
       <div className="flex flex-col gap-y-4 md:gap-y-6 absolute z-10 left-8 md:left-24 lg:left-32 top-1/3">
         <ScrollOpacity>
