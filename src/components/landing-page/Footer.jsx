@@ -58,7 +58,7 @@ const Footer = () => {
       <span className="w-full h-[1px] top-0 left-0 bg-myBlack opacity-25 block mb-[30px] lg:hidden" />
 
       {/* DESKTOP COPY EMAIL */}
-      <div className="grid">
+      <div className="hidden lg:block mt-2">
         <CustomButton
           icon={<CopyIcon />}
           text={"okolichimarume@gmail.com"}
