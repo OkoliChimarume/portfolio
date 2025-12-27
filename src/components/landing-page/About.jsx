@@ -20,7 +20,7 @@ const aboutStory = [
 const About = () => {
 
   return (
-    <section className="w-full h-screen flex justify-center relative bg-myDusk text-myWhite">
+    <section className="w-full h-[80vh] lg:h-screen flex justify-center relative bg-myDusk text-myWhite">
       <div className="flex flex-col justify-center w-[85%] md:w-[75%] lg:w-[50%] absolute top-[50%] translate-y-[-50%]">
         <ScrollOpacity>
           <SplitLineText
