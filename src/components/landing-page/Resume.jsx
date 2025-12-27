@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -70,6 +70,7 @@ const ResumeItem = ({
 const Resume = () => {
   const containerRef = useRef();
   const lineRef = useRef();
+  const [resumeDownloading, setResumeDownloading] = useState(false);
 
   const downloadResume = async () => {
     const path = "/resume.pdf";
@@ -177,6 +178,7 @@ const Resume = () => {
             text={"Download Resume"}
             full={true}
             handleClick={downloadResume}
+            disabled={resumeDownloading}
           />
         </div>
       </div>
