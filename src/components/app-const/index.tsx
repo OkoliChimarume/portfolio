@@ -69,6 +69,88 @@ const experienceData = [
   },
 ];
 
-const projectList = [];
+const projectList = [
+  {
+    id: 1,
+    title: "Risevest clone",
+    type: ["Development"],
+    img: "/images/project-1.png", 
+    link: "https://risevest-assessment.vercel.app",
+    description: "a clone of Risevest webapp",
+    date: "2024"
+  },
+  {
+    id: 2,
+    title: "Easymed",
+    type: ["Development"],
+    img: "/images/project-2.png",
+    link: "https://app.eazymed.net/login",
+    description: "An app that connects users to healthcare services",
+    date: "2023"
+  },
+  {
+    id: 3,
+    title: "Predict Dice",
+    type: ["Branding", "Development", "Design"],
+    img: "/images/project-3.png",
+    link: "https://predict-dice.vercel.app",
+    description: "Casual dice game, created to showcase my progress with Animations and Vanila Javascript",
+    date: "2025"
+  },
+  {
+    id: 4,
+    title: "KwikckPharm",
+    type: ["Development"],
+    img: "/images/project-4.png",
+    link: "https://www.kwickpharm.com",
+    description: "Healthcare solution that connects users to pharmacies ",
+    date: "2022"
+  },
+  {
+    id: 5,
+    title: "Simbi",
+    type: ["Development"],
+    img: "/images/project-4.png",
+    link: "simbi-ai.vercel.app",
+    description: "AI‐powered study buddy that’s got your back from sign-in to sign-off",
+    date: "2025"
+  },
+  {
+    id: 6,
+    title: "Football game UI",
+    type: ["Development", "Design"],
+    img: "/images/project-4.png",
+    link: "https://football-app-nine-rouge.vercel.app/",
+    description: "a simple UI created using vanilla JS, HTML and CSS",
+    date: "2025"
+  },
+  {
+    id: 7,
+    title: "Bannana App",
+    type: ["Development", "Design"],
+    img: "/images/project-4.png",
+    link: "https://my-banana-app.vercel.app/",
+    description: "a simple UI created using vanilla JS, HTML and CSS",
+    date: "2025"
+  },
+  {
+    id: 8,
+    title: "Old Portfolio",
+    type: ["Development"],
+    img: "/images/project-4.png",
+    link: "https://okolichimarume.vercel.app/",
+    description: "my Portfolio website built with React.js",
+    date: "2024"
+  },
+  {
+    id: 9,
+    title: "Oasis",
+    type: ["Development"],
+    img: "/images/project-4.png",
+    link: "https://my-oasis.netlify.app",
+    description: "product management solution landing page clone",
+    date: "2023"
+  },
+];
 
 export { projectList, experienceData };

@@ -63,12 +63,20 @@ body {
   --text-60-title: 60px;
   --text-60-title--letter-spacing: 0ch;
   --text-60-body--line-height: 0.94;
+  
+  --text-40-title: 40px;
+  --text-40-title--letter-spacing: 0ch;
+  --text-40-title--line-height: 1.1;
+
+  --text-80-title: 80px;
+  --text-80-title--letter-spacing: -0.02ch;
+  --text-80-title--line-height: 0.9;
 
   --text-large-d: 280px;
   --text-large-d--letter-spacing: -0.03ch;
   --text-large-d--line-height: 0.94;
 
-  --text-large-m: 150px;
+  --text-large-m: 100px;
   --text-large-m--letter-spacing: -0.01ch;
   --text-large-m--line-height: 0.94;
 
