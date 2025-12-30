@@ -8,7 +8,7 @@ const aboutStory = [
   {
     index: "1",
     story:
-      "Frontend-focused Software Engineer with over 3 years of experience building scalable web applications. Passionate about AI and bringing designs to life by creating intuitive, high-performance interfaces that solve real-world problems.",
+      "Frontend-focused Software Engineer with 4 years of experience building scalable web applications. Passionate about AI and bringing designs to life by creating intuitive, high-performance interfaces that solve real-world problems.",
   },
   {
     index: "2",
