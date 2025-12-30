@@ -19,7 +19,7 @@ const Footer = () => {
       ref={containerRef}
       className=" overflow-hidden mt-24 h-full lg:h-[50vh] w-full px-mobile lg:px-desktop-h flex flex-col justify-between pb-[30px] lg:pb-[50px]"
     >
-      <div className="flex flex-col lg:flex-row justify-between gap-y-[60px] lg:gap-y-[unset] mb-[60px] lg:mb-[unset]">
+      <div className="flex flex-col lg:flex-row justify-between gap-y-[50px] lg:gap-y-[unset] mb-[50px] lg:mb-[unset]">
         <div className="text-45-title lg:text-large-m font-bold flex flex-wrap items-center gap-x-[10px] w-full md:w-[70%]">
           <SlideIn>
             <span> Get in Touch </span>

@@ -12,8 +12,8 @@ export const useNavbarContext = () => {
 const navLinks = ["About", "Projects", "Contacts"];
 const socials = [
   { title: "LinkedIn", link: "https://www.linkedin.com/in/okoli-chimarume/" },
-  { title: "gitHub", link: "https://github.com/okolichimarume" },
-  { title: "Twitter(X)", link: "https://x.com/loverofpastry?s=21" },
+  { title: "GitHub", link: "https://github.com/okolichimarume" },
+  { title: "Twitter (X)", link: "https://x.com/loverofpastry?s=21" },
 ];
 
 const NavbarContextProvider = ({ children }) => {

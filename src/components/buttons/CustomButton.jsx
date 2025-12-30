@@ -50,7 +50,7 @@ const CustomButton = ({
 
   return (
     <ButtonHighlight
-      styles={`px-[22px] py-[8px] ${bg ? "bg-myGray" : ""} ${
+      styles={`px-[22px] hover:text-black py-[8px] ${bg ? "bg-myGray" : ""} ${
         full ? "w-full py-[20px] rounded-4xl" : ""
       }`}
       mouseEnterFunc={() => animteText(true)}
@@ -74,7 +74,7 @@ const CustomButton = ({
         ) : null}
 
         {/* Text */}
-        <div ref={textConRef} className="w-fit h-fit relative flex flex-col">
+        <div ref={textConRef} className="w-fit h-fit relative flex flex-col ">
           <span className={`pointer-events-none`}>
             {text || "No-icon button"}
           </span>

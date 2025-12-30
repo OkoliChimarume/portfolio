@@ -5,7 +5,7 @@ const experienceData = [
     company: "Strongreed Technologies",
     location: "Remote",
     description: [
-      "I built and scaled user-centric web and mobile interfaces for a pharmaceutical inventory and patient/customer management platform used by onboarded pharmacies. Working closely with senior engineers, I architected responsive applications from scratch using React, TypeScript, Tailwind CSS, and Material UI, delivering pixel-perfect components and integrating multiple REST APIs.",
+      "I built and scaled user-centric web and mobile interfaces for a pharmaceutical inventory and patient/customer management platform used by pharmacies. Working closely with senior engineers, I architected responsive applications from scratch using React, TypeScript, Tailwind CSS, and Material UI, delivering pixel-perfect components and integrating multiple REST APIs.",
       "Beyond core development, I led UI adaptation to mobile using CapacitorJS, integrated third-party services such as Paystack for payments and Chowdeck for logistics, and maintained high product quality through rigorous QA processes.",
     ],
   },
@@ -15,9 +15,9 @@ const experienceData = [
     company: "Risevest Technologies",
     location: "Lagos, Nigeria",
     description: [
-      "In my role, I actively contributed to Developing admin interfaces for super admins, CS admins and technical support officers to manage customer related complaints and profile. I also interfaced with Customer Success associates to resolve customer complaints.",
-      "Fixed bugs and implemented new interfaces for asset management platform(Assetbase) for users",
-      "During my time here, I've cultivated proficiency in cutting-edge technologies, specializing in React, TypeScript, Next.js, Tailwind CSS, and Material UI to design components, optimize code, consume APIs, and create documentation to support our projects.",
+      "In my role, I actively contributed to developing admin interfaces for super admins, CS admins and technical support officers to manage customer related complaints and profile. I also interfaced with Customer Success associates to resolve customer complaints.",
+      "Fixed bugs and implemented new interfaces for asset management platform (Assetbase) for users",
+      "During my time here, I cultivated proficiency in cutting-edge technologies, specializing in React, TypeScript, Next.js, Tailwind CSS, and Material UI to design components, optimize code, consume APIs, and create documentation to support our projects.",
     ],
   },
   {
@@ -26,7 +26,7 @@ const experienceData = [
     company: "Risevest Academy ",
     location: "Lagos, Nigeria",
     description: [
-      "In my role, I actively contributed to the development of web-based games and interactive real life projects as part of creative learning modules. This included crafting essential features and enhancing overall robustness.",
+      "I actively contributed to the development of web-based games and interactive real life projects as part of creative learning modules. This included crafting essential features and enhancing overall robustness.",
       "Participated in weekly mentorship sessions with senior frontend engineers, receiving guidance on career development and advanced technical concepts, accelerating skill acquisition ",
     ],
   },

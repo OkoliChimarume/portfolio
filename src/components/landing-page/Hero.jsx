@@ -38,7 +38,7 @@ const Hero = () => {
       ref={containerRef} 
       className="w-full h-screen flex items-center lg:px-desktop-h relative bg-myDusk text-myWhite overflow-hidden"
     >
-      <div className="flex flex-col gap-y-4 md:gap-y-6 absolute z-10 left-8 md:left-24 lg:left-32 top-1/3">
+      <div className="flex flex-col gap-y-4 md:gap-y-6 absolute z-10 left-8 md:left-24 lg:left-32 top-1/2 md:top-1/3">
         <ScrollOpacity>
           <SlideIn>
             <h1 className="text-45-title md:text-large-m lg:text-[120px] leading-[0.9] font-bold tracking-tight">
@@ -67,8 +67,8 @@ const Hero = () => {
       </div>
 
       {/* Animated Image */}
-      <div className="absolute right-0 md:right-24 lg:right-32 top-20 md:top-1/4 opacity-100 flex justify-end">
-        <div ref={imgRef} className="relative w-64 h-64 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px]">
+      <div className="absolute right-16 md:right-24 lg:right-32 top-20 md:top-1/4 opacity-100 flex justify-end">
+        <div ref={imgRef} className="relative w-70 h-70 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px]">
              {/* Decorative circle glow behind */}
             <div className="absolute inset-0 bg-myAccent/20 blur-3xl rounded-full scale-90"></div>
             
