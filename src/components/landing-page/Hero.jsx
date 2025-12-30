@@ -67,7 +67,7 @@ const Hero = () => {
       </div>
 
       {/* Animated Image */}
-      <div className="absolute right-16 md:right-24 lg:right-32 top-20 md:top-1/4 opacity-100 flex justify-end">
+      <div className="absolute right-16 md:right-24 lg:right-32 top-16 md:top-1/4 opacity-100 flex justify-end">
         <div ref={imgRef} className="relative w-70 h-70 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px]">
              {/* Decorative circle glow behind */}
             <div className="absolute inset-0 bg-myAccent/20 blur-3xl rounded-full scale-90"></div>
