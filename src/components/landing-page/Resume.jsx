@@ -84,7 +84,7 @@ const Resume = () => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "Okoli-Obianuju-Resume.pdf";
+      a.download = "OKOLI CHIMARUME.pdf";
       document.body.appendChild(a);
       a.click();
       a.remove();
